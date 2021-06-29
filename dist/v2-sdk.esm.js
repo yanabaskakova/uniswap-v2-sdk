@@ -5,7 +5,7 @@ import { keccak256, pack } from '@ethersproject/solidity';
 import { getCreate2Address } from '@ethersproject/address';
 
 var FACTORY_ADDRESS = '0x9b3fEF64b1Aa1144B04f46F8119F2C51c8fD0D1F';
-var INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f';
+var INIT_CODE_HASH = '0xfc78a9582b96f0583b73b31e83c1f252a50150855b2308c558a1dcf20f934576';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
